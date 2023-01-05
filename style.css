@@ -1,0 +1,14 @@
+table {
+  width: 100%; /* Set the width of the table to 100% */
+  border-collapse: collapse; /* Collapse the table border */
+}
+
+th, td {
+  padding: 8px; /* Add padding to the cells */
+  text-align: left; /* Left-align the text */
+  border-bottom: 1px solid #ddd; /* Add a bottom border to the cells */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Add a background color to the even rows */
+}
